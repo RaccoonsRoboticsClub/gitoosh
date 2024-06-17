@@ -1,15 +1,28 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  place-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   will-change: filter;
   transition: filter 300ms;
+  animation: logo-spin 5 0.5s ease-out;
+  flex: 1;
+
+  img {
+    height: 400px;
+  }
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -20,23 +33,48 @@
 
 @keyframes logo-spin {
   from {
-    transform: rotate(360deg);
+    transform: rotateY(0deg);
   }
   to {
-    transform: rotate(0deg);
+    transform: rotateY(360deg);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s ease-in-out;
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  flex: 1;
+}
+
+.ban {
+  direction: rtl;
+  margin-top: 100px;
+  background-color: black;
+  color: yellow;
+  padding: 5px 10px;
+  border: 1px dashed;
+}
+
+.team {
+  text-align: center;
+
+  img {
+    height: 200px;
+    width: auto;
   }
 }
 
-.card {
-  padding: 2em;
+.social_team {
+  /* social team styles here */
 }
 
-.read-the-docs {
-  color: #888;
+.builders_team {
+  /* builders team styles here */
+}
+
+.developers_team {
+  /* developers team styles here */
 }

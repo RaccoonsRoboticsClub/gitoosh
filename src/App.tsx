@@ -1,34 +1,31 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
+import racoonsLogo from './assets/racoons.png';
+import socialTeamLogo from './assets/media_team.jpeg';
+import buildersLogo from './assets/builders.jpeg';
+import developersLogo from './assets/developers.jpeg';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="container">
+      <div className="logo">
+        <img src={racoonsLogo}></img>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className="teams">
+        <div className="team social_team">
+          <img src={socialTeamLogo} />
+          <div>Social Team</div>
+        </div>
+        <div className="team builders_team">
+          <img src={buildersLogo} />
+          <div>Builders Team</div>
+        </div>
+        <div className="team devlopers_team">
+          <img src={developersLogo} />
+          <div>Developers Team</div>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <div className="ban">{'אאאאייי עוד לא אכלתי באן!'}</div>
+    </div>
   );
 }
 
