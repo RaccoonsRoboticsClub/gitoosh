@@ -70,6 +70,10 @@ body {
 
 .social_team {
   /* social team styles here */
+
+  &:hover {
+    border: 1px solid green;
+  }
 }
 
 .builders_team {
