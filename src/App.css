@@ -58,6 +58,9 @@ body {
 
 .team {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
 
   img {
     height: 200px;
