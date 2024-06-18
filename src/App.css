@@ -61,6 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
+  font-size: 30px;
 
   img {
     border-radius: 10px;
