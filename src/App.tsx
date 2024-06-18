@@ -24,7 +24,7 @@ function App() {
           <div>Developers Team</div>
         </div>
       </div>
-      <div className="ban">{'אאאאייי עוד לא אכלתי באן!'}</div>
+      <div className="ban">{'אאאאייייייייי עוד לא אכלתי באן!'}</div>
     </div>
   );
 }
