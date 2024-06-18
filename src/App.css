@@ -63,33 +63,24 @@ body {
   color: white;
   font-size: 30px;
 
+  /* Task 2: all teams styles here */
+
   img {
     border-radius: 10px;
     height: 200px;
     width: auto;
+    border-radius: inherit;
   }
 }
 
 .social_team {
-  /* social team styles here */
-
-  &:hover {
-    border: 1px solid green;
-  }
+  /* Task 1: social team styles here */
 }
 
 .builders_team {
-  /* builders team styles here */
-
-  &:hover {
-    filter: invert(100%);
-  }
+  /* Task 1: builders team styles here */
 }
 
 .developers_team {
-  /* developers team styles here */
-
-  &:hover {
-    transform: scale(2);
-  }
+  /* Task 1: developers team styles here */
 }
