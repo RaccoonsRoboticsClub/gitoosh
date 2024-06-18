@@ -61,20 +61,24 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
+
+  /* Task 2: all teams styles here */
   box-shadow: 0 0 10px 5px #000000aa;
 
   img {
+    border-radius: inherit;
     height: 200px;
     width: auto;
+    border-radius: inherit;
   }
 }
 
 .social_team {
-  /* social team styles here */
+  /* Task 1: social team styles here */
 }
 
 .builders_team {
-  /* builders team styles here */
+  /* Task 1: builders team styles here */
 }
 
 .developers_team {
