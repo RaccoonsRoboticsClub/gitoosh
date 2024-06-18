@@ -63,6 +63,7 @@ body {
   color: white;
 
   img {
+    border-radius: 10px;
     height: 200px;
     width: auto;
   }
