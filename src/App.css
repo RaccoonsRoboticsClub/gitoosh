@@ -67,6 +67,8 @@ body {
 
 .social_team {
   /* social team styles here */
+
+  border: 1px solid green;
 }
 
 .builders_team {
