@@ -74,6 +74,10 @@ body {
 
 .builders_team {
   /* builders team styles here */
+
+  &:hover {
+    filter: invert(100%);
+  }
 }
 
 .developers_team {
