@@ -64,6 +64,7 @@ body {
   font-size: 30px;
 
   /* Task 2: all teams styles here */
+  border-radius: 10px;
 
   img {
     border-radius: 10px;
@@ -75,6 +76,10 @@ body {
 
 .social_team {
   /* Task 1: social team styles here */
+
+  &:hover {
+    border: 1px solid green;
+  }
 }
 
 .builders_team {
