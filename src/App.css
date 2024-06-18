@@ -61,6 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
+  box-shadow: 0 0 10px 5px #000000aa;
 
   img {
     height: 200px;
