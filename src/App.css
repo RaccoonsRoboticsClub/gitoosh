@@ -78,4 +78,8 @@ body {
 
 .developers_team {
   /* developers team styles here */
+
+  &:hover {
+    transform: scale(2);
+  }
 }
