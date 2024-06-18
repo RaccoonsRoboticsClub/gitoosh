@@ -19,7 +19,7 @@ function App() {
           <img src={buildersLogo} />
           <div>Builders Team</div>
         </div>
-        <div className="team devlopers_team">
+        <div className="team developers_team">
           <img src={developersLogo} />
           <div>Developers Team</div>
         </div>
