@@ -80,6 +80,16 @@ body {
 
 .builders_team {
   /* Task 1: builders team styles here */
+
+  :hover {
+    transform: scale(1.5);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    transform: rotate(45deg);
+  }
 }
 
 .developers_team {
