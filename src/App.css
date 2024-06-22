@@ -80,7 +80,8 @@ body {
   transition: transform 0.5s, box-shadow 0.5s;
   border-radius: 15px;
   overflow: hidden;
-  width: 150px; /* גודל האלמנט */
+  width: 150px;
+  /* גודל האלמנט */
 }
 
 .social_team img {
