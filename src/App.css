@@ -74,9 +74,79 @@ body {
   }
 }
 
+/* סטיילים בסיסיים של social_team */
 .social_team {
-  /* Task 1: social team styles here */
+  position: relative;
+  transition: transform 0.5s, box-shadow 0.5s;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 150px; /* גודל האלמנט */
 }
+
+.social_team img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.social_team:hover {
+  transform: scale(1.1) rotate(10deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* סטיילים לאפקטים */
+.social_team::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.5s;
+  opacity: 0;
+  z-index: 1;
+}
+
+.social_team:hover::before {
+  opacity: 1;
+}
+
+.social_team::after {
+  content: 'Social Team';
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2em;
+  color: white;
+  z-index: 2;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.social_team:hover::after {
+  opacity: 1;
+}
+
+/* סטיילים לתיאור */
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 10;
+}
+
 
 .builders_team {
   /* Task 1: builders team styles here */
